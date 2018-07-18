@@ -68,7 +68,7 @@ class MetamaskDetection extends Component {
     const needInitialized = !shopInitialized;
     const needMetamask = !providerFound;
     const needUnlocked = _.isEmpty(accounts);
-    const allowedNetworks = ['mainnet', 'rinkeby'];
+    const allowedNetworks = ['mainnet', 'rinkeby', 'ropsten'];
     const onTheRightNetwork = _.includes(allowedNetworks, networkName);
     const needToChangeNetworks = !onTheRightNetwork;
 
