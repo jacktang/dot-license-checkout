@@ -8,6 +8,7 @@
     "css",
     "es",
     "lib",
+    "src",
     "umd"
   ],
   "scripts": {
